@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+           <title>Student Registration</title>
+           <style>
+                fieldset {
+                           padding:30px;
+                           width:550px;
+                           line-height:1.0;
+                        }
+           </style>
+    </head>
+    <body>
+           <h2> Student Registration Form </h2>
+           <fieldset>
+              <legend><span>Student Registration Form </span></legend>
+           <form>
+             <!--    <label>First Name</label>
+                 <input type="text"> <br>
+                 <label>Last Name</label>
+                 <input type="text"><br>
+                 <label>Age</label>
+                 <input type="number"><br><br>   -->
+                 <table>
+                     <tbody>
+                             <tr>
+                                   <td><label>First Name</label></td>
+                                   <td><input type="text" required autofocus maxlength="10" placeholder="First name"></td>
+                             </tr>
+                             <tr>
+                                   <td><label>Last Name</label></td>
+                                   <td><input type="text" placeholder="Last Name"></td>
+                             </tr>
+                             <tr>
+                                   <td><label>Age</label></td>
+                                   <td><input type="number" max="100"></td>   
+                             </tr>
+                             <tr>
+                                   <td><label>Mobile No </label></td>
+                                   <td><input type="number"></td>
+                             </tr>
+                             <tr>
+                                   <td><label>Email</label></td>
+                                   <td><input type="email"></td>
+                             </tr>
+                             <tr>
+                                   <td><label>Password</label></td>
+                                   <td><input type="password"></td>
+                             </tr>
+                             <tr>
+                                   <td><label>Date of Birth</label></td>
+                                   <td><input type="date"></td>
+                             </tr>
+                             <tr>
+                                   <td> <label> Country</label></td>
+                                   <td> <input type="text" value="India" readonly></td>
+                             </tr>
+                             <tr>
+                                   <td><label>Select Graduation</label></td>
+                                   <td>
+                                          <select>
+                                                 <option>BSc</option>
+                                                 <option>BE</option>
+                                                 <option>BBA</option>
+                                                 <option>BCA</option>
+                                                 <option>MSc</option>
+                                                 <option>MCA</option>
+                                          </select>
+                                   </td>
+                             </tr>
+                             <tr>
+                                   <td><label>Select Gender</label></td>
+                                   <td>
+                                          <input type="radio" name="gender"><label>Male </label>
+                                          <input type="radio" name="gender"><label>Female</label>
+                                          <input type="radio" name="gender"><label>Others</label>
+                                   </td>
+                             </tr>
+                             <tr>
+                                   <td><label>Select your Hobby</label></td>
+                                   <td><input type="checkbox"><label>Reading</label>
+                                       <input type="checkbox"><label>Singing</label>
+                                       <input type="checkbox"><label>Dancing</label>
+                                       <input type="checkbox"><label>Playing</label>  
+                                   </td>
+                             </tr>
+                             <tr>
+                                   <td><label>Profile Photo</label></td>
+                                   <td><input type="file"></td>
+                             </tr>
+                             <tr>
+                                   <td><label>Upload Graduation Marksheet</label></td>
+                                   <td><input type="file" multiple></td>
+                             </tr>
+                             <tr>
+                                   <td><label>Present Address</label></td>
+                                   <td><textarea rows="8" cols="30"></textarea></td>
+                             </tr>
+                             <tr>
+                                   <td><button type="submit"> Submit </button></td>
+                                   <td><button type="reset"> Reset </button></td>
+                             </tr>
+                     </tbody>
+                 </table>
+           </form>
+       </fieldset>
+    </body>
+</html>
